@@ -1,13 +1,11 @@
-var question = confirm("Are you sure you want to send a payment?");
+var button = document.createElement("button");
+button.innerHTML = "Type your answer here";
 
-if (question == true) {
 
-    x = "Payment sent!";
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
 
-} else {
 
-    x = "Payment cancelled!";
-
-}
-
-alert (x);
+button.addEventListener ("click", function() {
+  alert("did something");
+});
