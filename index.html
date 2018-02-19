@@ -1,110 +1,93 @@
-<style type="text/css">
-    .tg {
-        border-collapse: collapse;
-        border-spacing: 0;
-        margin: 0px auto;
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Jeopardy Game</title>
+</head>
 
-    .tg td {
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        padding: 20px 20px;
-        border-style: solid;
-        border-width: 1px;
-        overflow: hidden;
-        word-break: normal;
-    }
+<body>
+    <div class="tg-wrap">
+        <table class="tg">
+            <tr>
+                <th class="tg-ytau"> History </th>
+                <th class="tg-ytau"> Geography </th>
+                <th class="tg-ytau">Entertainment</th>
+                <th class="tg-ytau"> Food </th>
+                <th class="tg-ytau"> Sport </th>
+                <th class="tg-ytau">Anything Goes</th>
+            </tr>
+            <tr>
+                <td class="his-100" id="button">$100</td>
+                <td class="geo-100" id="button">$100</td>
+                <td class="ent-100" id="button">$100</td>
+                <td class="food-100" id="button">$100</td>
+                <td class="sport-100" id="button">$100</td>
+                <td class="any-100" id="button">$100</td>
+            </tr>
+            <tr>
+                <td class="his-200" id="button">$200</td>
+                <td class="geo-200" id="button">$200</td>
+                <td class="ent-200" id="button">$200</td>
+                <td class="food-200" id="button">$200</td>
+                <td class="sport-200" id="button">$200</td>
+                <td class="any-200" id="button">$200</td>
+            </tr>
+            <tr>
+                <td class="his-300" id="button">$300</td>
+                <td class="geo-300" id="button">$300</td>
+                <td class="ent-300" id="button">$300</td>
+                <td class="food-300" id="button">$300</td>
+                <td class="sport-300" id="button">$300</td>
+                <td class="any-300" id="button">$300</td>
+            </tr>
+            <tr>
+                <td class="his-400" id="button">$400</td>
+                <td class="geo-400" id="button">$400</td>
+                <td class="ent-400" id="button">$400</td>
+                <td class="food-400" id="button">$400</td>
+                <td class="sport-400" id="button">$400</td>
+                <td class="any-400" id="button">$400</td>
+            </tr>
+            <tr>
+                <td class="his-500" id="button">$500</td>
+                <td class="geo-500" id="button">$500</td>
+                <td class="ent-500" id="button">$500</td>
+                <td class="food-500" id="button">$500</td>
+                <td class="sport-500" id="button">$500</td>
+                <td class="any-500" id="button">$500</td>
+            </tr>
+        </table>
+    </div>
 
-    .tg th {
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: normal;
-        padding: 20px 20px;
-        border-style: solid;
-        border-width: 1px;
-        overflow: hidden;
-        word-break: normal;
-    }
+    <div class="questions">
 
-    .tg .tg-ytau {
-        font-weight: bold;
-        background-color: #00009b;
-        color: #f8ff00;
-        text-align: center;
-        vertical-align: top
-    }
+    </div>
 
-    #button {
-        background-color: #00009b;
-        color: #ffffff;
-        text-align: center;
-        vertical-align: top
-    }
+    <div class="answers">
+        <table class="tg">
+            <tr>
+                <th class="tg-kytl" id="button">A</th>
+                <th class="tg-du3h"></th>
+            </tr>
+            <tr>
+                <td class="tg-90mo" id="button">B</td>
+                <td class="tg-siak"></td>
+            </tr>
+            <tr>
+                <td class="tg-dg2a" id="button">C</td>
+                <td class="tg-siak"></td>
+            </tr>
+        </table>
+    </div>
 
-    @media screen and (max-width: 767px) {
-        .tg {
-            width: auto !important;
-        }
-        .tg col {
-            width: auto !important;
-        }
-        .tg-wrap {
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-            margin: auto 0px;
-        }
-    }
-</style>
-<link rel="stylesheet" type="text/css" href="style.css">
-<div class="tg-wrap">
-    <table class="tg">
-        <tr>
-            <th class="tg-ytau"> History </th>
-            <th class="tg-ytau"> Geography </th>
-            <th class="tg-ytau">Entertainment</th>
-            <th class="tg-ytau"> Food </th>
-            <th class="tg-ytau"> Sport </th>
-            <th class="tg-ytau">Anything Goes</th>
-        </tr>
-        <tr>
-            <td class="his-100" id="button">$100</td>
-            <td class="geo-100" id="button">$100</td>
-            <td class="ent-100" id="button">$100</td>
-            <td class="food-100" id="button">$100</td>
-            <td class="sport-100" id="button">$100</td>
-            <td class="any-100" id="button">$100</td>
-        </tr>
-        <tr>
-            <td class="his-200" id="button">$200</td>
-            <td class="geo-200" id="button">$200</td>
-            <td class="ent-200" id="button">$200</td>
-            <td class="food-200" id="button">$200</td>
-            <td class="sport-200" id="button">$200</td>
-            <td class="any-200" id="button">$200</td>
-        </tr>
-        <tr>
-            <td class="his-300" id="button">$300</td>
-            <td class="geo-300" id="button">$300</td>
-            <td class="ent-300" id="button">$300</td>
-            <td class="food-300" id="button">$300</td>
-            <td class="sport-300" id="button">$300</td>
-            <td class="any-300" id="button">$300</td>
-        </tr>
-        <tr>
-            <td class="his-400" id="button">$400</td>
-            <td class="geo-400" id="button">$400</td>
-            <td class="ent-400" id="button">$400</td>
-            <td class="food-400" id="button">$400</td>
-            <td class="sport-400" id="button">$400</td>
-            <td class="any-400" id="button">$400</td>
-        </tr>
-        <tr>
-            <td class="his-500" id="button">$500</td>
-            <td class="geo-500" id="button">$500</td>
-            <td class="ent-500" id="button">$500</td>
-            <td class="food-500" id="button">$500</td>
-            <td class="sport-500" id="button">$500</td>
-            <td class="any-500" id="button">$500</td>
-        </tr>
-    </table>
-</div>
+    <div class="scoreboard">
+
+    </div>
+
+    <script src="game.js">
+
+    </script>
+
+</body>
+
+</html>
