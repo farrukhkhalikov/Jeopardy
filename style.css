@@ -3,7 +3,7 @@ table {
 }
 
 #button:hover, #button-A, #button-B, #button-C {
-    color: red;
+    color: white;
     cursor: pointer;
 }
 

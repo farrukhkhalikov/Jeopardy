@@ -8,6 +8,8 @@ $('.his-100').on('click', () => {
     $('.answerA').html('when is 1492?');
     $('.answerB').html('when is 1266?');
     $('.answerC').html('when is 1345?');
+    $(event.target).off();
+    $(event.target).css( "color", "red");
 })
 
 
