@@ -9,3 +9,4 @@ body.appendChild(button);
 button.addEventListener ("click", function() {
   alert("did something");
 });
+
