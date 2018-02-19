@@ -60,13 +60,7 @@ $('.his-200').one('click', () => {
     // correct or incorrect answers
     $('#button-B').on('click', () => {
         playerAnswer = "B"
-        if(playerAnswer === answers){
-            $('.scoreboard').html(score += 100)
-            $('.comment').html('That is the correct answer');        
-        } else {
-            $('.scoreboard').html(score -= 100)
-            $('.comment').html('That is the incorrect answer');       
-        }    
+        checkForAnswer(200)
         $('#button-A').off()
         $('#button-C').off()
         $(event.target).off()
@@ -74,13 +68,7 @@ $('.his-200').one('click', () => {
 
     $('#button-A').on('click', () => {
         playerAnswer = "A"
-        if(playerAnswer === answers){
-            $('.scoreboard').html(score += 100)
-            $('.comment').html('That is the correct answer');        
-        } else {
-            $('.scoreboard').html(score -= 100)
-            $('.comment').html('That is the incorrect answer');       
-        }     
+        checkForAnswer(200)
         $('#button-B').off()
         $('#button-C').off()
         $(event.target).off()
@@ -88,13 +76,7 @@ $('.his-200').one('click', () => {
 
     $('#button-C').on('click', () => {
         playerAnswer = "C"
-        if(playerAnswer === answers){
-            $('.scoreboard').html(score += 100)
-            $('.comment').html('That is the correct answer');        
-        } else {
-            $('.scoreboard').html(score -= 100)
-            $('.comment').html('That is the incorrect answer');       
-        }     
+        checkForAnswer(200)
         $('#button-A').off()
         $('#button-B').off()
         $(event.target).off()
