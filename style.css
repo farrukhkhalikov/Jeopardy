@@ -2,13 +2,13 @@ table {
     width: 50%;
 }
 
-#button:hover {
+#button:hover, #button-A, #button-B, #button-C {
     color: red;
     cursor: pointer;
 }
 
 .tg-wrap {
-    margin-bottom: 100px;
+    margin: 30px 0px;
 }
 
 .tg {
@@ -46,7 +46,7 @@ table {
     vertical-align: top
 }
 
-#button {
+#button, #button-A, #button-B, #button-C {
     background-color: #00009b;
     color: #ffffff;
     text-align: center;
@@ -76,5 +76,16 @@ table {
 .questions {
     text-align: center;
     margin-bottom: 100px;
+    font-size: 30px;
+    height: 50px;
+}
+
+.answers {
+    text-align: center;
+}
+
+.comment {
+    text-align: center;
+    margin-top: 100px;
     font-size: 30px;
 }
