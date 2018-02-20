@@ -11,3 +11,7 @@ HTML and CSS generator used for the game was taken from: https://www.tablesgener
 
 
 BitBalloon link for the game: http://friendly-brown-776091.bitballoon.com/
+
+
+Future goal is to make the game more interacrive by adding AI and sounds to the background, add images and animation to pop out for correct and incorrect answers. I am using this course to add (in the future) animation to the game: https://www.linkedin.com/learning/motion-design-with-css/css-transitions
+
