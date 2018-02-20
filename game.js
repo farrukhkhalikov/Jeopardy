@@ -99,17 +99,6 @@ $('.his-500').one('click', () => {
     answerButtons(500)
 })
 
-$('.his-600').one('click', () => {
-    $('.questions').html('Which company was purchased by eBay in 2002 to replace Billpoint as the online auction sites preferred payment method?');
-    $('.answerA').html('Amazon');
-    $('.answerB').html('E-money');
-    $('.answerC').html('PayPal');
-    $(event.target).css("color", "red");
-    answers = "C"
-    // correct or incorrect answers
-    answerButtons(600)
-})
-
 $('.geo-100').one('click', () => {
     $('.questions').html('Which U.S. capital cities have rhyming names?');
     $('.answerA').html('Austin - Boston');
@@ -165,25 +154,105 @@ $('.geo-500').one('click', () => {
     answerButtons(500)
 })
 
-$('.geo-600').one('click', () => {
-    $('.questions').html('The duck billed platypus is native to what country?');
-    $('.answerA').html('Austria');
-    $('.answerB').html('Nederland');
-    $('.answerC').html('Australia');
+$('.ent-100').one('click', () => {
+    $('.questions').html('Which actor appeared in American Graffiti before starring in Star Wars?');
+    $('.answerA').html('Harrison Ford');
+    $('.answerB').html('Henry Ford');
+    $('.answerC').html('Jack London');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(100)
+})
+$('.ent-200').one('click', () => {
+    $('.questions').html('Which chart-topping songstress lent her voice to Smurfette in 2011 The Smurfs movie?');
+    $('.answerA').html('Katy Perry');
+    $('.answerB').html('Pink');
+    $('.answerC').html('Beyonce');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(200)
+})
+$('.ent-300').one('click', () => {
+    $('.questions').html('Which two actors, who play Sherlock Holmes on TV, starred on the London stage together in 2013 in a production of Frankenstein?');
+    $('.answerA').html('Harrison Ford and Eminem');
+    $('.answerB').html('Michael Owen and David Beckham');
+    $('.answerC').html('Benedict Cumberbatch and Johnny Lee Miller ');
     $(event.target).css("color", "red");
     answers = "C"
     // correct or incorrect answers
-    answerButtons(600)
+    answerButtons(300)
 })
-$('.ent-100').one('click', () => {
-    $('.questions').html('The duck billed platypus is native to what country?');
-    $('.answerA').html('Austria');
-    $('.answerB').html('Nederland');
-    $('.answerC').html('Australia');
+$('.ent-400').one('click', () => {
+    $('.questions').html('BB-8 is an astromech droid from what film?');
+    $('.answerA').html('Avatar');
+    $('.answerB').html('Star Wars ');
+    $('.answerC').html('Stargate');
+    $(event.target).css("color", "red");
+    answers = "B"
+    // correct or incorrect answers
+    answerButtons(400)
+})
+$('.ent-500').one('click', () => {
+    $('.questions').html('Which actress played Katniss Everdeen in "The Hunger Games"?');
+    $('.answerA').html('Jennifer Lawrence ');
+    $('.answerB').html('Jennifer Aniston');
+    $('.answerC').html('Keisha');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(500)
+})
+$('.food-100').one('click', () => {
+    $('.questions').html('What food is the leading source of salmonella poisoning?');
+    $('.answerA').html('salmon');
+    $('.answerB').html('tilapia');
+    $('.answerC').html('chicken');
     $(event.target).css("color", "red");
     answers = "C"
     // correct or incorrect answers
     answerButtons(100)
+})
+$('.food-200').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Jennifer Lawrence ');
+    $('.answerB').html('Jennifer Aniston');
+    $('.answerC').html('Keisha');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(200)
+})
+$('.food-300').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Jennifer Lawrence ');
+    $('.answerB').html('Jennifer Aniston');
+    $('.answerC').html('Keisha');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(300)
+})
+$('.food-400').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Jennifer Lawrence ');
+    $('.answerB').html('Jennifer Aniston');
+    $('.answerC').html('Keisha');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(400)
+})
+$('.food-500').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Jennifer Lawrence ');
+    $('.answerB').html('Jennifer Aniston');
+    $('.answerC').html('Keisha');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(500)
 })
 
 
