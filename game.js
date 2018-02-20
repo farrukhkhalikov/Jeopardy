@@ -215,44 +215,95 @@ $('.food-100').one('click', () => {
     answerButtons(100)
 })
 $('.food-200').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Jennifer Lawrence ');
-    $('.answerB').html('Jennifer Aniston');
-    $('.answerC').html('Keisha');
+    $('.questions').html('What edible comes in crimmini, morel, oyster and wood ear varieties?');
+    $('.answerA').html('mushroom');
+    $('.answerB').html('oysters');
+    $('.answerC').html('ice-cream');
     $(event.target).css("color", "red");
     answers = "A"
     // correct or incorrect answers
     answerButtons(200)
 })
 $('.food-300').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Jennifer Lawrence ');
-    $('.answerB').html('Jennifer Aniston');
-    $('.answerC').html('Keisha');
+    $('.questions').html('What uncooked meat is a trichina worm most likely to make a home in?');
+    $('.answerA').html('veal');
+    $('.answerB').html('pork');
+    $('.answerC').html('fish');
     $(event.target).css("color", "red");
-    answers = "A"
+    answers = "B"
     // correct or incorrect answers
     answerButtons(300)
 })
 $('.food-400').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Jennifer Lawrence ');
-    $('.answerB').html('Jennifer Aniston');
-    $('.answerC').html('Keisha');
+    $('.questions').html('What baking ingredient, sprayed at high pressure, did the U.S. Air Force replace its toxic paint stripper with?');
+    $('.answerA').html('salt');
+    $('.answerB').html('ham');
+    $('.answerC').html('baking soda');
     $(event.target).css("color", "red");
-    answers = "A"
+    answers = "C"
     // correct or incorrect answers
     answerButtons(400)
 })
 $('.food-500').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Jennifer Lawrence ');
-    $('.answerB').html('Jennifer Aniston');
-    $('.answerC').html('Keisha');
+    $('.questions').html('What crystalline salt is frequently used to enhance the flavor to TV dinners?');
+    $('.answerA').html('Monosodium glutamate');
+    $('.answerB').html('Sea salt');
+    $('.answerC').html('baking soda');
     $(event.target).css("color", "red");
     answers = "A"
     // correct or incorrect answers
     answerButtons(500)
 })
+$('.sport-100').one('click', () => {
+    $('.questions').html('Who was the last professional hockey player to play without a helmet?');
+    $('.answerA').html('Malkin');
+    $('.answerB').html('Craig MacTavish');
+    $('.answerC').html('Sydney Crosby');
+    $(event.target).css("color", "red");
+    answers = "B"
+    // correct or incorrect answers
+    answerButtons(100)
+})
+$('.sport-200').one('click', () => {
+    $('.questions').html('What is professional wrestler, John Cena, catch phrase?');
+    $('.answerA').html('You cant see me!');
+    $('.answerB').html('Sea salt');
+    $('.answerC').html('can of coke');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(200)
+})
+$('.sport-300').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Monosodium glutamate');
+    $('.answerB').html('Sea salt');
+    $('.answerC').html('baking soda');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(300)
+})
+$('.sport-400').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Monosodium glutamate');
+    $('.answerB').html('Sea salt');
+    $('.answerC').html('baking soda');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(400)
+})
+$('.sport-500').one('click', () => {
+    $('.questions').html('');
+    $('.answerA').html('Monosodium glutamate');
+    $('.answerB').html('Sea salt');
+    $('.answerC').html('baking soda');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(500)
+})
+
 
 
