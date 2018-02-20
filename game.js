@@ -275,32 +275,32 @@ $('.sport-200').one('click', () => {
     answerButtons(200)
 })
 $('.sport-300').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Monosodium glutamate');
-    $('.answerB').html('Sea salt');
-    $('.answerC').html('baking soda');
+    $('.questions').html('What year was the first Super Bowl played?');
+    $('.answerA').html('1999');
+    $('.answerB').html('1923');
+    $('.answerC').html('1967');
     $(event.target).css("color", "red");
-    answers = "A"
+    answers = "C"
     // correct or incorrect answers
     answerButtons(300)
 })
 $('.sport-400').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Monosodium glutamate');
-    $('.answerB').html('Sea salt');
-    $('.answerC').html('baking soda');
+    $('.questions').html('Who is the greatest soccer player of all time? (hint: he is also referred to be an extraterrestrial)');
+    $('.answerA').html('Ronaldinho');
+    $('.answerB').html('Maradona');
+    $('.answerC').html('Lionel Messi');
     $(event.target).css("color", "red");
-    answers = "A"
+    answers = "C"
     // correct or incorrect answers
     answerButtons(400)
 })
 $('.sport-500').one('click', () => {
-    $('.questions').html('');
-    $('.answerA').html('Monosodium glutamate');
-    $('.answerB').html('Sea salt');
-    $('.answerC').html('baking soda');
+    $('.questions').html('n what year was the first modern Olympic Games held?');
+    $('.answerA').html('2700 BC');
+    $('.answerB').html('2000');
+    $('.answerC').html('1896');
     $(event.target).css("color", "red");
-    answers = "A"
+    answers = "C"
     // correct or incorrect answers
     answerButtons(500)
 })
