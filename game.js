@@ -295,7 +295,7 @@ $('.sport-400').one('click', () => {
     answerButtons(400)
 })
 $('.sport-500').one('click', () => {
-    $('.questions').html('n what year was the first modern Olympic Games held?');
+    $('.questions').html('In what year was the first modern Olympic Games held?');
     $('.answerA').html('2700 BC');
     $('.answerB').html('2000');
     $('.answerC').html('1896');
@@ -304,6 +304,57 @@ $('.sport-500').one('click', () => {
     // correct or incorrect answers
     answerButtons(500)
 })
+$('.any-100').one('click', () => {
+    $('.questions').html('What French sculptor created the Statue of Liberty?');
+    $('.answerA').html('Frédéric Auguste Bartholdi');
+    $('.answerB').html('Nicola Auperier');
+    $('.answerC').html('Frederic Chopin');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(100)
+})
+$('.any-200').one('click', () => {
+    $('.questions').html('What is the most spoken language in the world?');
+    $('.answerA').html('English');
+    $('.answerB').html('Chinese');
+    $('.answerC').html('German');
+    $(event.target).css("color", "red");
+    answers = "B"
+    // correct or incorrect answers
+    answerButtons(200)
+})
+$('.any-300').one('click', () => {
+    $('.questions').html('How many heads of executive departments make up the presidents cabinet - 10, 15, or 25?');
+    $('.answerA').html('10');
+    $('.answerB').html('15');
+    $('.answerC').html('25');
+    $(event.target).css("color", "red");
+    answers = "B"
+    // correct or incorrect answers
+    answerButtons(300)
+})
+$('.any-400').one('click', () => {
+    $('.questions').html('Which London department store was started by an American reatiler in 1909?');
+    $('.answerA').html('Cadburry');
+    $('.answerB').html('Nestle');
+    $('.answerC').html('Selfridges');
+    $(event.target).css("color", "red");
+    answers = "C"
+    // correct or incorrect answers
+    answerButtons(400)
+})
+$('.any-500').one('click', () => {
+    $('.questions').html('Which is the only U.S. state capital city with not a single McDonalds fast food joint?');
+    $('.answerA').html('Montpelier, Vermont');
+    $('.answerB').html('Seattle');
+    $('.answerC').html('Washington DC');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(500)
+})
 
 
+///  this is where I got my questions and answers from : http://www.triviaquestionsnow.com/?page=14 
 
