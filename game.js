@@ -118,6 +118,72 @@ $('.geo-100').one('click', () => {
     $(event.target).css("color", "red");
     answers = "A"
     // correct or incorrect answers
+    answerButtons(100)
+})
+
+$('.geo-200').one('click', () => {
+    $('.questions').html('With over 35 million residents, what is the most populous city in the world?');
+    $('.answerA').html('Los Angeles');
+    $('.answerB').html('New York');
+    $('.answerC').html('Tokyo');
+    $(event.target).css("color", "red");
+    answers = "C"
+    // correct or incorrect answers
+    answerButtons(200)
+})
+
+$('.geo-300').one('click', () => {
+    $('.questions').html('Which Nordic country was first to give women the right to vote, in 1906?');
+    $('.answerA').html('Norway');
+    $('.answerB').html('Finland');
+    $('.answerC').html('Iceland');
+    $(event.target).css("color", "red");
+    answers = "B"
+    // correct or incorrect answers
+    answerButtons(300)
+})
+
+$('.geo-400').one('click', () => {
+    $('.questions').html('What is the only sea on Earth with no coastline?');
+    $('.answerA').html('Sargasso Sea');
+    $('.answerB').html('Red Sea');
+    $('.answerC').html('Dead Sea');
+    $(event.target).css("color", "red");
+    answers = "A"
+    // correct or incorrect answers
+    answerButtons(400)
+})
+
+$('.geo-500').one('click', () => {
+    $('.questions').html('Which is the most abundant metal in the earth crust?');
+    $('.answerA').html('iron');
+    $('.answerB').html('gold');
+    $('.answerC').html('Aluminum');
+    $(event.target).css("color", "red");
+    answers = "C"
+    // correct or incorrect answers
+    answerButtons(500)
+})
+
+$('.geo-600').one('click', () => {
+    $('.questions').html('The duck billed platypus is native to what country?');
+    $('.answerA').html('Austria');
+    $('.answerB').html('Nederland');
+    $('.answerC').html('Australia');
+    $(event.target).css("color", "red");
+    answers = "C"
+    // correct or incorrect answers
     answerButtons(600)
 })
+$('.ent-100').one('click', () => {
+    $('.questions').html('The duck billed platypus is native to what country?');
+    $('.answerA').html('Austria');
+    $('.answerB').html('Nederland');
+    $('.answerC').html('Australia');
+    $(event.target).css("color", "red");
+    answers = "C"
+    // correct or incorrect answers
+    answerButtons(100)
+})
+
 
